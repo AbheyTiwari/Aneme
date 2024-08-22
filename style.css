@@ -51,12 +51,12 @@ body {
 }
 
 .header-dark .logo {
-    margin-top: 5px; /* adjusted margin to center the logo */
+    margin-top: 5px;
     margin-right: auto;
 }
 
 .header-dark .logo img {
-    width: 50px; /* reduced width to make the logo smaller */
+    width: 100px; /* reduced width to make the logo smaller */
     height: 50px; /* reduced height to make the logo smaller */
 }
 
@@ -199,33 +199,56 @@ body {
     cursor: pointer;
 }
 
-.product-saskuke {
-    height: 400px;
+.product-saskuke { /*for product 1*/
     background-color: #333;
 }
 
-.product-saskuke img {
-    border: 2px solid #333; /* custom border for product 1 image */
+.product-saskuke img { /*for image product 1*/
+    border: 2px solid #333;
+    width: 450px;
+    height: 450px;
 }
 
-.product-naruto {
+.product-susuke h3 {
+    color: #f7f7f7; /* custom text color for product 1 title */
+}
+
+.product-saskuke .btn-green {
+    background-color: #66CC00; /* custom button color for product 1 */
+}
+
+.product-luffy img { /*for image product 2*/
+    border: 2px solid #333;
+    width: 500px;
+    height: 500px;  
+}
+.product-luffy {
     background-color: #333; /* custom background color for product 2 */
 }
 
-.product-naruto h3 {
+.product-luffy .btn-green {
+    background-color: #66CC00; /* custom button color for product 2 */
+}
+
+.product-luffy h3 {
     color: #f7f7f7; /* custom text color for product 2 title */
 }
 
+.product-akatsuki img { /*for image product 3*/
+    border: 2px solid #333; 
+    width: 450px;
+    height: 450px;
+}
 .product-akatsuki {
-    background-color: #444; /* custom background color for product 3 */
+    background-color: #333; /* custom background color for product 3 */
 }
 
 .product-akatsuki .btn-green {
     background-color: #66CC00; /* custom button color for product 3 */
 }
-.product h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+
+.product-akatsuki h3 {
+    color: #f7f7f7; /* custom text color for product 3 title */
 }
 
 .product p {
@@ -283,3 +306,4 @@ body {
     font-size: 16px;
     margin-bottom: 10px;
 }
+
